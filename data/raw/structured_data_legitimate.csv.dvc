@@ -1,0 +1,5 @@
+outs:
+- md5: 57ec543719af0375e3cea45edc769498
+  size: 1956974
+  hash: md5
+  path: structured_data_legitimate.csv
