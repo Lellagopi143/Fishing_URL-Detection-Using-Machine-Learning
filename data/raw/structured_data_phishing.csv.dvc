@@ -1,0 +1,5 @@
+outs:
+- md5: 784f206d6560e416967ca6400af23e74
+  size: 1509018
+  hash: md5
+  path: structured_data_phishing.csv
