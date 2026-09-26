@@ -1,19 +1,9 @@
-# Python
 venv/
 __pycache__/
 *.pyc
-
-# DVC local configuration
 .dvc/config
-
-# Datasets
 data/raw/*.csv
-
-# Trained models
 models/
-
-# MLflow local database
 mlflow.db
-
-# MLflow artifacts
 mlruns/
+.pytest_cache/
