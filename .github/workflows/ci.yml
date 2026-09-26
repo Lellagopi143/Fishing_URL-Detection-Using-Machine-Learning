@@ -41,6 +41,8 @@ jobs:
       - name: Install test dependencies
         run: |
           pip install pytest
+          pip install httpx2
+          pip install requests
 
 
       # 5. Run tests
