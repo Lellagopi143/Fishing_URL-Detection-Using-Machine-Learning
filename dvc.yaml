@@ -1,0 +1,13 @@
+stages:
+
+  train:
+
+    cmd: python src/models/train.py
+
+    deps:
+      - src/models/train.py
+      - data/raw/structured_data_legitimate.csv
+      - data/raw/structured_data_phishing.csv
+
+    outs:
+      - models/phishing_url_model.pkl
