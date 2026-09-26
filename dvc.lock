@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python src/models/train.py
+    deps:
+    - path: data/raw/structured_data_legitimate.csv
+      hash: md5
+      md5: 57ec543719af0375e3cea45edc769498
+      size: 1956974
+    - path: data/raw/structured_data_phishing.csv
+      hash: md5
+      md5: 784f206d6560e416967ca6400af23e74
+      size: 1509018
+    - path: src/models/train.py
+      hash: md5
+      md5: 661b76f94ea5bd11c3143bb4160a9534
+      size: 12757
+    outs:
+    - path: models/phishing_url_model.pkl
+      hash: md5
+      md5: dbbd07001bcf971a1bcc7bc654911e0a
+      size: 12900265
